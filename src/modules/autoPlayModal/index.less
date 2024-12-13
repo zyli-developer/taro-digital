@@ -1,0 +1,37 @@
+.auto-play-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .modal-content {
+    background: #fff;
+    border-radius: 8px;
+    width: 450px;
+    min-height: 150px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .auto-play-button {
+    font-weight: 700;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    padding: 24px;
+    border-radius: 8px;
+    
+    &:active {
+      opacity: 0.8;
+    }
+  }
+} 

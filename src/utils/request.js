@@ -1,7 +1,8 @@
 import axios from 'axios';
 
+
 const TIME_OUT = 60000;
-const BASE_URL = 'https://cloud.walliai.com';
+const BASE_URL = process.env.TARO_APP_BASE_URL
 
 // 存储请求标识和取消函数
 const pendingMap = new Map();

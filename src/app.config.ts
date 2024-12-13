@@ -1,5 +1,3 @@
-import {defineAppConfig} from '@tarojs/cli'
-
 export default defineAppConfig({
   pages: [
     'pages/invitation/index',
@@ -7,6 +5,7 @@ export default defineAppConfig({
   ],
   window: {
     backgroundTextStyle: 'light',
+    backgroundColor:'#4b526b',
     navigationBarBackgroundColor: '#4b526b',
     // navigationBarTitleText: 'WeChat',
     // navigationBarTextStyle: 'black'
